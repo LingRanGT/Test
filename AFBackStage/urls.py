@@ -14,9 +14,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,include
+from django.contrib.staticfiles.views import serve
+from django.urls import path, include,re_path
+
+from AFBackStage.settings import MEDIA_ROOT
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('news/', include('news.urls')),
+    path('solution/', include('solution.urls')),
+    re_path(r'^upload/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
 ]
