@@ -1,15 +1,14 @@
 from django.db import models
 import django.utils.timezone as timezone
 
-
 # Create your models here.
 from django.utils.html import format_html
+from django.utils.safestring import mark_safe
 from stdimage import StdImageField
 
 
 class SolutionModel(models.Model):
-    # picture = StdImageField(upload_to='icon/', blank=True, delete_orphans=True, variations={'thumbnail': (100, 75)}, verbose_name=u'url'),
-    picture = models.ImageField('图片', upload_to='icon/')
+    picture = StdImageField('图片路径',upload_to='path/to/', blank=True,delete_orphans=True)
     title = models.CharField('标题', max_length=64, blank=False)
     list_url = models.CharField('URL', max_length=64, blank=True)
     source = models.CharField('来源', max_length=32, blank=False)
@@ -23,16 +22,15 @@ class SolutionModel(models.Model):
         verbose_name = "方案列表"
         verbose_name_plural = verbose_name
 
-    # 这里要使用format_html 才可以在后台显示图片
-    # def image_img(self):
-    #     return format_html(
-    #         '<img src="{}" width="100px"/>',
-    #         self.head_img.thumbnail.url,
-    #     )
+    # 在后台列表显示图片
+    def get_image_tag(self):
+        if self.picture:
+            return mark_safe('<img src="%s" width="75" height="60" />' % self.picture.url)
+        else:
+            return ' '
 
-    # image_img.short_description = '图片'
-    # 图片是否显示
-    # image_img.allow_tags = True
+    get_image_tag.short_description = 'Photo'
+    get_image_tag.admin_order_field = 'name'
 
     def __str__(self):
         return self.title
