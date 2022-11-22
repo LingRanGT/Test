@@ -1,13 +1,13 @@
 # Create your models here.
-
+from ckeditor_uploader.fields import RichTextUploadingField
 from django.db import models
-from stdimage.models import StdImageField
+from stdimage import StdImageField
 from django.utils.safestring import mark_safe
 #用户表
 class User(models.Model):
     username = models.CharField(verbose_name='用户名',unique=True, max_length=64)
-    head_img = StdImageField(upload_to='path/to/', blank=True,delete_orphans=True,
-                          verbose_name=u'url')
+    head_img = StdImageField(upload_to='path/to/', blank=True,delete_orphans=True,verbose_name=u'url')
+    body = RichTextUploadingField(default="111")
 
     class Meta:
         db_table = 'user_info'

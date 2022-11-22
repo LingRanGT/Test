@@ -22,7 +22,13 @@ from AFBackStage.settings import MEDIA_ROOT
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('ckeditor', include('ckeditor_uploader.urls')),
     path('news/', include('news.urls')),
     path('solution/', include('solution.urls')),
     re_path(r'^upload/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
 ]
+
+# 用于上传图片的路径,仅在测试时生效
+# from django.conf import settings
+# from django.conf.urls.static import static
+# urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

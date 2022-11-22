@@ -35,6 +35,8 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'simpleui',
     'stdimage',  # 上传图片
+    'ckeditor',  # 富文本编辑器
+    'ckeditor_uploader',  # 可以上传图片的富文本
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -149,6 +151,8 @@ SIMPLEUI_ANALYSIS = False
 MEDIA_ROOT = os.path.join(BASE_DIR, 'upload')  # 注意此处不要写成列表或元组的形式
 # 配置 MEDIA_URL 作为公用 URL，指向上传文件的基本路径
 MEDIA_URL = '/upload/'
+
+CKEDITOR_UPLOAD_PATH = 'content/ckeditor/'
 
 # SIMPLEUI_CONFIG = {
 #     'system_keep': False,  # 关闭系统菜单
