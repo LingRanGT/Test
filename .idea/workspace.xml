@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51c67284-82ab-40ca-be9e-b6c68e8bbfb6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/AfProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AFBackStage.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0002_alter_news_keyword.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0003_alter_news_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0004_alter_news_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/migrations/0002_alter_solutionmodel_content_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/migrations/0003_alter_solutionmodel_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testapp/migrations/0002_user_body_alter_user_head_img.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/content/ckeditor/2022/11/22/af_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon/af_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon/af_test_CdnKQEc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/icon/af_测试.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/path/to/af_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/path/to/af_test.thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/path/to/af_test_ne69kFi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/path/to/af_test_ne69kFi.thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/path/to/forbs.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HI5Y1cKaqMXGCB6cLWzSZeVY35" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Project/PyCharmProject/AfProject",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\PyCharmProject\AFBackStage\solution" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AFBackStage" type="Python.DjangoServer" factoryName="Django server">
+      <module name="AFBackStage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51c67284-82ab-40ca-be9e-b6c68e8bbfb6" name="Changes" comment="" />
+      <created>1667959800396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667959800396</updated>
+      <workItem from="1667959801620" duration="42483000" />
+      <workItem from="1669082583380" duration="5277000" />
+      <workItem from="1669100589195" duration="251000" />
+    </task>
+    <task id="LOCAL-00001" summary="添加requirements.txt">
+      <created>1668562558566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668562558566</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加requirements.txt" />
+  </component>
+</project>
