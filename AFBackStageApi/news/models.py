@@ -12,7 +12,7 @@ class News(models.Model):
     content = RichTextUploadingField(default="")
     created_time = models.DateTimeField('创建时间', auto_now_add=True)  # 创建时间
     updated_time = models.DateTimeField('更新时间', auto_now=True)  # 更新时间
-    pro_status = models.CharField('发布状态', max_length=1, default='N')  # 发布状态 Y:发布；N:开发
+    pro_status = models.CharField('发布状态', max_length=1, default='Y')  # 发布状态 Y:发布；N:开发
 
     class Meta:
         verbose_name = "新闻列表"

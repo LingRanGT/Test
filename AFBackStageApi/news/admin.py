@@ -15,8 +15,6 @@ class News(admin.ModelAdmin):
     # 默认不配置的话，第一个字段会存在链接到记录编辑页面
     # list_display_links = None
     list_display_links = ('title',)
-    # 设置搜索字段
-    # search_fields = ('title',)
     # 设置过滤选项
     list_filter = ('title', 'keyword', 'source', 'created_time', 'updated_time', 'pro_status')
     # 设置可编辑字段 如果设置了可以编辑字段，页面会自动增加保存按钮
