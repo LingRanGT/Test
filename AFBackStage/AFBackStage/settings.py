@@ -28,11 +28,12 @@ DEBUG = True
 #     os.path.join(BASE_DIR, "static"),
 # ]
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*',]
 
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'simpleui',
     'stdimage',  # 上传图片
     'ckeditor',  # 富文本编辑器
@@ -46,17 +47,51 @@ INSTALLED_APPS = [
     'news.apps.NewsConfig',
     'solution.apps.SolutionConfig',
     'testapp.apps.TestappConfig',
+    'corsheaders',  # 解决跨域问题
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',  # 解决跨域问题
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+#跨域增加忽略
+CORS_ALLOW_CREDENTIALS = True
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_WHITELIST = (
+    ['http://*', 'https://*']
+)
+
+
+CORS_ALLOW_METHODS = (
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+    'VIEW',
+)
+
+CORS_ALLOW_HEADERS = (
+    'XMLHttpRequest',
+    'X_FILENAME',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+    'Pragma',
+)
 
 ROOT_URLCONF = 'AFBackStage.urls'
 
@@ -154,34 +189,7 @@ MEDIA_URL = '/upload/'
 
 CKEDITOR_UPLOAD_PATH = 'content/ckeditor/'
 
-# SIMPLEUI_CONFIG = {
-#     'system_keep': False,  # 关闭系统菜单
-#     'menu_display': ['新闻管理', '权限认证'],
-#     # 'dynamic': True,    # 设置是否开启动态菜单, 默认为False. 如果开启, 则会在每次用户登陆时动态展示菜单内容
-#     'menus': [{
-#         'app': 'news',
-#         'name': '新闻管理',
-#         'icon': 'fas fa-user-shield',
-#         'models': [{
-#             'name': '新闻列表',
-#             'icon': 'fa fa-user',
-#             # 注意url按'/admin/应用名小写/模型名小写/'命名
-#             'url': 'news/news/'
-#         }]
-#     },{
-#         'app': 'auth',
-#         'name': '权限认证',
-#         'icon': 'fas fa-user-shield',
-#         'models': [{
-#             'name': '用户',
-#             'icon': 'fa fa-user',
-#             'url': 'auth/user/'
-#         },
-#             {
-#                 'name': '用户组',
-#                 'icon': 'fa fa-th-list',
-#                 'url': 'auth/group/'
-#             }
-#         ]
-#     }]
-# }
+
+
+
+

@@ -2,50 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51c67284-82ab-40ca-be9e-b6c68e8bbfb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/migrations/0002_alter_news_keyword.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/migrations/0003_alter_news_content.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/migrations/0004_alter_news_content.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/news/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/solution/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/solution/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/solution/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/solution/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/solution/migrations/0002_alter_solutionmodel_content_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/solution/migrations/0003_alter_solutionmodel_content.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/solution/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/solution/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/solution/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/solution/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/solution/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/solution/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/testapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/testapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/testapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/testapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/testapp/migrations/0002_user_body_alter_user_head_img.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/testapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/testapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/testapp/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/testapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/testapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AFBackStageApi/testapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStage/news/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStage/solution/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStage/testapp/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStage/testapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStageApi/upload/content/ckeditor/2022/11/22/af_test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStageApi/upload/icon/af_test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStageApi/upload/icon/af_test_CdnKQEc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStageApi/upload/icon/af_测试.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStageApi/upload/path/to/af_test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStageApi/upload/path/to/af_test.thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStageApi/upload/path/to/af_test_ne69kFi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStageApi/upload/path/to/af_test_ne69kFi.thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFBackStageApi/upload/path/to/forbs.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AFBackStage/AFBackStage/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStage/AFBackStage/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AFBackStage/news/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStage/news/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AFBackStage/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStage/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AFBackStage/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStage/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AFBackStage/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStage/news/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AFBackStage/solution/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStage/solution/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AFBackStageApi/AFBackStageApi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStageApi/AFBackStageApi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AFBackStage/solution/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStage/solution/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AFBackStage/solution/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStage/solution/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AFBackStage/testapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStage/testapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AFBackStageApi/AFBackStageApi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStageApi/AFBackStageApi/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AFBackStageApi/AFBackStageApi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStageApi/AFBackStageApi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AFBackStageApi/news/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStageApi/news/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AFBackStageApi/solution/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/AFBackStageApi/solution/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +56,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/AFBackStage" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -93,16 +75,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Project/PyCharmProject/AfProject/AFBackStageApi/solution",
+    "last_opened_file_path": "E:/Project/PyCharmProject/AfProject/AFBackStage/AFBackStage",
     "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Project\PyCharmProject\AfProject\AFBackStageApi\solution" />
+      <recent name="E:\Project\PyCharmProject\AfProject\AFBackStage\AFBackStage" />
+      <recent name="E:\Project\PyCharmProject\AfProject\AFBackStage\news" />
+      <recent name="E:\Project\PyCharmProject\AfProject\AFBackStage\solution" />
+      <recent name="E:\Project\PyCharmProject\AfProject\AFBackStage\testapp" />
       <recent name="E:\Project\PyCharmProject\AfProject\AFBackStageApi" />
-      <recent name="E:\Project\PyCharmProject\AfProject\AFBackStageApi\testapp" />
-      <recent name="E:\Project\PyCharmProject\AFBackStage\solution" />
     </key>
   </component>
   <component name="RunManager">
@@ -140,7 +123,9 @@
       <updated>1667959800396</updated>
       <workItem from="1667959801620" duration="42483000" />
       <workItem from="1669082583380" duration="5277000" />
-      <workItem from="1669100589195" duration="17150000" />
+      <workItem from="1669100589195" duration="17985000" />
+      <workItem from="1669269743685" duration="5993000" />
+      <workItem from="1669342551029" duration="4363000" />
     </task>
     <task id="LOCAL-00001" summary="添加requirements.txt">
       <created>1668562558566</created>
